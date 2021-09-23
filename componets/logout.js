@@ -2,14 +2,12 @@ import React from "react";
 import { Button } from "@material-ui/core";
 import { useAuth } from "../contexts/auth";
 
-
 const Logout = () => {
-        const { logout } = useAuth();
+  const { logout } = useAuth();
 
-        const handleLogout = () => {
-            logout();
-
-        };
+  const handleLogout = () => {
+    logout();
+  };
   return (
     <div>
       <Button onClick={handleLogout} color="primary">
