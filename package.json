@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node_modules/next/dist/bin/next start -p $PORT"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
